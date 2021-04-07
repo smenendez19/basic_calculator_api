@@ -5,6 +5,12 @@
     <title>Calculadora</title>
     <meta charset="UTF-8">
     <link rel="stylesheet" href="{{ url_for('static', filename= 'css/main.css')}}">
+    <link rel="icon" type="image/png" href="{{ url_for('static', filename='favicon.png')}}">
+	<meta property="og:title" content="Calculadora Basica"/>
+	<meta property="og:description" content="Proyecto de aprendizaje en Flask de una calculadora basica, aun sin terminar"/>
+	<meta property="og:type" content="website"/>
+    <meta property="og:url" content="{{ url_for('home')}}" />
+	<meta property="og:image" content="{{ url_for('static', filename='favicon.png')}}" />
 </head>
 
 <body>

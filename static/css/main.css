@@ -15,6 +15,7 @@ body {
     align-items: center;
     justify-content: center;
     border: 1px solid black;
+    border-radius: 10px;
 }
 
 .button {
@@ -29,6 +30,7 @@ body {
     border : 1px solid black;
     font-size:24px;
     font-family: Tahoma, Geneva, sans-serif;
+    border-radius: 10px;
 }
 
 .visor {
@@ -43,6 +45,7 @@ body {
     border : 1px solid black;
     font-size:24px;
     font-family: Tahoma, Geneva, sans-serif;
+    border-radius: 10px;
   }
 
 .button_result {
@@ -57,4 +60,5 @@ body {
     border : 1px solid black;
     font-size:24px;
     font-family: Tahoma, Geneva, sans-serif;
+    border-radius: 10px;
 }
