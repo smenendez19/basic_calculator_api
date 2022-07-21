@@ -20,12 +20,12 @@ La calculadora puede realizar actualmente lo siguiente:
 - Multiplicacion (*)
 - Resultado (=)
 - Borrado (DEL)
+- Coma
+- Limpieza (C)
 
 No funcionan:
 
-- Coma
 - Porcentaje (%)
-- Eliminado (C)
 
 ## Link
 
