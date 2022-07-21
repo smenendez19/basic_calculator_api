@@ -7,24 +7,28 @@
     <link rel="stylesheet" href="{{ url_for('static', filename= 'css/main.css')}}">
     <link rel="icon" type="image/png" href="{{ url_for('static', filename='favicon.png')}}">
 	<meta property="og:title" content="Calculadora Basica"/>
-	<meta property="og:description" content="Proyecto de aprendizaje en Flask de una calculadora basica, aun sin terminar"/>
+	<meta property="og:description" content="Proyecto de aprendizaje en Flask de una calculadora basica"/>
 	<meta property="og:type" content="website"/>
     <meta property="og:url" content="{{ url_for('home')}}" />
 	<meta property="og:image" content="{{ url_for('static', filename='favicon.png')}}" />
 </head>
 
 <body>
+    <div class="title-text">
+        <span>Calculadora Basica</span>
+    </div>
     <div class="calculator">
-        <form action="/" method="POST" , enctype="multipart/form-data">
+        <form action="/" method="POST" enctype="multipart/form-data">
             <input type="hidden" name="result_2" value="{{ result_2 }}"></input>
             <input type="hidden" name="operation" value="{{ operation }}"></input>
             <input type="hidden" name="resolved" value="{{ resolved }}"></input>
             <div>
+                <input class="calc" type="text" name="visor_calc" value="{{ visor_calc }}" readonly></input>
                 <input class="visor" type="text" name="result_1" value="{{ result_1 }}" readonly></input>
             </div>
             <div class="buttons-1">
                 <button class="button" type="submit" name="submit_button" >%</button>
-                <button class="button" type="submit" name="submit_button" >C</button>
+                <button class="button" type="submit" name="submit_button" value="C">C</button>
                 <button class="button" type="submit" name="submit_button" value="D">DEL</button>
                 <button class="button" type="submit" name="submit_button" value="/">/</button>
             </div>
@@ -48,10 +52,20 @@
             </div>
             <div class="buttons-5">
                 <button class="button" type="submit" name="submit_button" value="0">0</button>
-                <button class="button" type="submit" name="submit_button" >,</button>
+                <button class="button" type="submit" name="submit_button" value=",">,</button>
                 <button class="button_result" type="submit" name="submit_button" value="=">=</button>
             </div>
         </form>
+    </div>
+    <div class="footer-text">
+        <div>
+            <p>
+                Creado por Santiago Menendez como un proyecto de practica de HTML, CSS y API.
+            </p>
+            <p>
+                Repositorio: <a href="https://github.com/SantiMenendez19/calculadora_basica_flask">github.com/SantiMenendez19/calculadora_basica_flask</a>
+            </p>
+        </div>
     </div>
 </body>
 
