@@ -31,4 +31,4 @@ No funcionan:
 
 Se implemento la version utilizando el sitio de host vercel <https://vercel.com/>  
 
-Pueden probarlo en el siguiente link: <https://calculadora-basica-flask.vercel.app/>
+Pueden probarlo en el siguiente link: <https://calculadora-flask-olive.vercel.app/>
