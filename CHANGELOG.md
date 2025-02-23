@@ -1,5 +1,9 @@
 # Changelog
 
+## v1.0.1
+
+- Recambio de nombre para repositorio
+
 ## v1.0.0
 
 - Correccion de errores al dividir.
