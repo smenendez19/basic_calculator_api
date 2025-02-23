@@ -26,9 +26,3 @@ La calculadora puede realizar actualmente lo siguiente:
 No funcionan:
 
 - Porcentaje (%)
-
-## Link
-
-Se implemento la version utilizando el sitio de host vercel <https://vercel.com/>  
-
-Pueden probarlo en el siguiente link: <https://calculadora-flask-olive.vercel.app/>
